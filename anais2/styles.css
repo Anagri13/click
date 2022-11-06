@@ -1,0 +1,40 @@
+.call-to-action {
+    background-color: purple;
+    padding: 20px;
+    border: none;
+    font-size: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    animation-name: cta;
+    animation-duration: 2.5s; 
+    animation-iteration-count: infinite;
+    position: relative;
+    animation-direction: alternate;
+  }
+  
+  .call-to-action:hover {
+    color: #fff;
+  }
+  
+  @keyframes cta {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    
+    50% {
+      left: 0;
+      top: 200px;
+      color: pink;
+      background-color: black;
+    }
+    
+    100% {
+      top: 200px;
+      left: 200px;
+    }
+  }
+  
+  
+  
+  
