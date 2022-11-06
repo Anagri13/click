@@ -1,0 +1,45 @@
+body {
+    background: purple;
+  }
+  .btn {
+    width: 150px;
+    height: 40px;
+    background: black;
+    border-radius: 12px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn:before {
+    content: " hé !";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn:hover:before {
+    top: -30px;
+  }
+  .btn:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn:hover:after {
+    top: 50%;
+  }
+  
