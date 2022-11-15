@@ -1,8 +1,51 @@
 body {
-    background: purple;
+    background: rgba(248, 207, 248, 0.619);
   }
+  .btnclick {
+    width: 70px;
+    height: 40px;
+    background: rgb(128, 120, 120);
+    border-radius: 12px;
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: grab;
+    overflow: hidden;
+  }
+  .btnclick:before {
+    content: " click ";
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s ease;
+  }
+  .btnclick:hover:before {
+    top: -30px;
+  }
+  .btnclick:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 1s ease;
+  }
+  .btnclick:hover:after {
+    top: 50%;
+  }
+  
+  
   .btn {
-    width: 150px;
+    width: 60px;
     height: 40px;
     background: black;
     border-radius: 12px;
@@ -10,20 +53,20 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    cursor: pointer;
+    cursor: grab;
     overflow: hidden;
   }
   .btn:before {
     content: " hé !";
     color: #fff;
-    text-transform: uppercase;
+    text-transform: lowercase;
     font-size: 13px;
     font-weight: bold;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    transition: all 0.3s ease;
+    transition: all 1s ease;
   }
   .btn:hover:before {
     top: -30px;
@@ -37,9 +80,1557 @@ body {
     top: 150%;
     left: 50%;
     transform: translate(-50%,-50%);
-    transition: all 0.3s ease;
+    transition: all 1s ease;
   }
   .btn:hover:after {
     top: 50%;
+  }
+
+  
+  .btn1 {
+    width: 60px;
+    height: 40px;
+    background: rgb(5, 139, 58);
+    border-radius: 12px;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn1:before {
+    content: " Oh !";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn1:hover:before {
+    top: -30px;
+  }
+  .btn1:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.05s ease;
+  }
+  .btn1:hover:after {
+    top: 50%;
+  }
+
+
+  .btn2 {
+    width: 40px;
+    height: 40px;
+    background: rgb(91, 3, 92);
+    border-radius: 12px;
+    position: absolute;
+    top: 15%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn2:before {
+    content: "  !";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn2:hover:before {
+    top: -30px;
+  }
+  .btn2:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn2:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn3 {
+    width: 30px;
+    height: 40px;
+    background: rgb(97, 57, 208);
+    border-radius: 12px;
+    position: absolute;
+    top: 55%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn3:before {
+    content: "  !!!";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn3:hover:before {
+    top: -30px;
+  }
+  .btn3:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn3:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn4 {
+    width: 50px;
+    height: 40px;
+    background: rgb(208, 122, 57);
+    border-radius: 12px;
+    position: absolute;
+    top: 35%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn4:before {
+    content: " wsh ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn4:hover:before {
+    top: -30px;
+  }
+  .btn4:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn4:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn5 {
+    width: 40px;
+    height: 40px;
+    background: rgb(208, 40, 186);
+    border-radius: 12px;
+    position: absolute;
+    top: 45%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn5:before {
+    content: " eh ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn5:hover:before {
+    top: -30px;
+  }
+  .btn5:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn5:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn6 {
+    width: 150px;
+    height: 40px;
+    background: rgb(122, 3, 226);
+    border-radius: 12px;
+    position: absolute;
+    top: 85%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn6:before {
+    content: "  ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn6:hover:before {
+    top: -30px;
+  }
+  .btn6:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn6:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn7 {
+    width: 80px;
+    height: 40px;
+    background: rgb(3, 133, 226);
+    border-radius: 12px;
+    position: absolute;
+    top: 8%;
+    left: 56%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn7:before {
+    content: " FRR ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn7:hover:before {
+    top: -30px;
+  }
+  .btn7:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn7:hover:after {
+    top: 50%;
+  } 
+  
+
+  .btn8 {
+    width: 30px;
+    height: 40px;
+    background: rgb(19, 195, 113);
+    border-radius: 12px;
+    position: absolute;
+    top: 18%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn8:before {
+    content: " ICI ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn8:hover:before {
+    top: -30px;
+  }
+  .btn8:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn8:hover:after {
+    top: 50%;
+  } 
+ 
+  .btn9 {
+    width: 60px;
+    height: 40px;
+    background: rgb(195, 19, 51);
+    border-radius: 12px;
+    position: absolute;
+    top: 63%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn9:before {
+    content: " mgl ";
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn9:hover:before {
+    top: -30px;
+  }
+  .btn9:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn9:hover:after {
+    top: 50%;
+  } 
+ 
+  .btn10 {
+    width: 50px;
+    height: 40px;
+    background: rgb(220, 211, 55);
+    border-radius: 12px;
+    position: absolute;
+    top: 73%;
+    left: 72%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn10:before {
+    content: " Psst ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn10:hover:before {
+    top: -30px;
+  }
+  .btn10:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn10:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn11 {
+    width: 200px;
+    height: 40px;
+    background: rgb(109, 48, 7);
+    border-radius: 12px;
+    position: absolute;
+    top: 25%;
+    left: 55%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn11:before {
+    content: " Vasy viens la ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn11:hover:before {
+    top: -30px;
+  }
+  .btn11:after {
+    content: "🖕🖕🖕🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn11:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn12 {
+    width: 50px;
+    height: 40px;
+    background: rgb(240, 123, 112);
+    border-radius: 12px;
+    position: absolute;
+    top: 65%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn12:before {
+    content: " ??? ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn12:hover:before {
+    top: -30px;
+  }
+  .btn12:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 25px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn12:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn13 {
+    width: 170px;
+    height: 40px;
+    background: rgb(169, 214, 195);
+    border-radius: 12px;
+    position: absolute;
+    top: 75%;
+    left: 42%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn13:before {
+    content: " T Bete ou quoi ? ";
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn13:hover:before {
+    top: -30px;
+  }
+  .btn13:after {
+    content: "🖕🖕🖕🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 20px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn13:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn14 {
+    width: 140px;
+    height: 70px;
+    background: rgb(131, 14, 39);
+    border-radius: 12px;
+    position: absolute;
+    top: 65%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn14:before {
+    content: " Tu fais exprès ou quoi ? ";
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn14:hover:before {
+    top: -30px;
+  }
+  .btn14:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 35px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn14:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn15 {
+    width: 130px;
+    height: 70px;
+    background: rgb(233, 224, 103);
+    border-radius: 12px;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn15:before {
+    content: " Ca devient chiant la ";
+    color: #fff;
+    text-transform: lowercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn15:hover:before {
+    top: -30px;
+  }
+  .btn15:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 35px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn15:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn16 {
+    width: 240px;
+    height: 50px;
+    background: rgb(255, 110, 19);
+    border-radius: 12px;
+    position: absolute;
+    top: 30%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn16:before {
+    content: " A ton grand âge ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn16:hover:before {
+    top: -30px;
+  }
+  .btn16:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 35px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.1s ease;
+  }
+  .btn16:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn17 {
+    width: 170px;
+    height: 50px;
+    background: rgb(82, 157, 154);
+    border-radius: 12px;
+    position: absolute;
+    top: 22%;
+    left: 87%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn17:before {
+    content: " Bah alors ?";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn17:hover:before {
+    top: -30px;
+  }
+  .btn17:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.1s ease;
+  }
+  .btn17:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn18 {
+    width: 30px;
+    height: 40px;
+    background: rgb(134, 87, 178);
+    border-radius: 12px;
+    position: absolute;
+    top: 92%;
+    left: 87%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn18:before {
+    content: " ... ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn18:hover:before {
+    top: -30px;
+  }
+  .btn18:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.9s ease;
+  }
+  .btn18:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn19 {
+    width: 30px;
+    height: 30px;
+    background: rgb(107, 178, 87);
+    border-radius: 12px;
+    position: absolute;
+    top: 92%;
+    left: 7%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn19:before {
+    content: " . ";
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn19:hover:before {
+    top: -30px;
+  }
+  .btn19:after {
+    content: "🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 15px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.9s ease;
+  }
+  .btn19:hover:after {
+    top: 50%;
+  } 
+
+
+  .btn20 {
+    width: 100px;
+    height: 30px;
+    background: rgb(157, 177, 0);
+    border-radius: 12px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    overflow: hidden;
+  }
+  .btn20:before {
+    content: " PFFFFF... ";
+    color: #fff;
+    text-transform: LOWercase;
+    font-size: 13px;
+    font-weight: normal;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.3s ease;
+  }
+  .btn20:hover:before {
+    top: -30px;
+  }
+  .btn20:after {
+    content: "🖕🖕🖕";
+    color: green;
+    font-family: ionicons;
+    font-size: 10px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: all 0.9s ease;
+  }
+  .btn20:hover:after {
+    top: 50%;
+  } 
+
+
+  .btnA {
+    width: 100px;
+    height: 40px;
+    background: rgb(157, 177, 0);
+    border-radius: 12px;
+    position: absolute;
+    top: 42%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+ 
+
+  .btnB {
+    width: 100px;
+    height: 70px;
+    background: rgb(255, 16, 16);
+    border-radius: 12px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnC {
+    width: 300px;
+    height: 30px;
+    background: rgb(99, 209, 200);
+    border-radius: 12px;
+    position: absolute;
+    top: 37%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnD {
+    width: 100px;
+    height: 100px;
+    background: rgb(16, 24, 255);
+    border-radius: 12px;
+    position: absolute;
+    top: 8%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnE {
+    width: 50px;
+    height: 70px;
+    background: rgb(255, 16, 171);
+    border-radius: 12px;
+    position: absolute;
+    top: 84%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnF {
+    width: 100px;
+    height: 70px;
+    background: rgb(16, 211, 255);
+    border-radius: 12px;
+    position: absolute;
+    top: 42%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnG {
+    width: 70px;
+    height: 50px;
+    background: rgb(212, 236, 118);
+    border-radius: 12px;
+    position: absolute;
+    top: 22%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnH {
+    width: 100px;
+    height: 70px;
+    background: rgb(255, 128, 16);
+    border-radius: 12px;
+    position: absolute;
+    top: 52%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnI {
+    width: 90px;
+    height: 30px;
+    background: rgb(255, 16, 88);
+    border-radius: 12px;
+    position: absolute;
+    top: 54%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnJ {
+    width: 80px;
+    height: 40px;
+    background: rgb(207, 150, 225);
+    border-radius: 12px;
+    position: absolute;
+    top: 92%;
+    left: 39%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnK {
+    width: 150px;
+    height: 50px;
+    background: rgb(255, 242, 0);
+    border-radius: 12px;
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnL {
+    width: 50px;
+    height: 50px;
+    background: rgb(255, 16, 40);
+    border-radius: 12px;
+    position: absolute;
+    top: 82%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnM {
+    width: 160px;
+    height: 40px;
+    background: rgb(150, 167, 227);
+    border-radius: 12px;
+    position: absolute;
+    top: 32%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnN {
+    width: 60px;
+    height: 130px;
+    background: rgb(18, 146, 39);
+    border-radius: 12px;
+    position: absolute;
+    top: 57%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnO {
+    width: 390px;
+    height: 70px;
+    background: rgb(248, 156, 117);
+    border-radius: 12px;
+    position: absolute;
+    top: 6%;
+    left: 79%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnP {
+    width: 100px;
+    height: 300px;
+    background: rgb(192, 74, 186);
+    border-radius: 12px;
+    position: absolute;
+    top: 60%;
+    left: 6%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnQ {
+    width: 80px;
+    height: 50px;
+    background: rgb(11, 250, 178);
+    border-radius: 12px;
+    position: absolute;
+    top: 52%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnR {
+    width: 150px;
+    height: 80px;
+    background: rgb(16, 255, 44);
+    border-radius: 12px;
+    position: absolute;
+    top: 72%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnS {
+    width: 50px;
+    height: 180px;
+    background: rgb(255, 223, 16);
+    border-radius: 12px;
+    position: absolute;
+    top: 73%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnT {
+    width: 40px;
+    height: 150px;
+    background: rgb(255, 16, 16);
+    border-radius: 12px;
+    position: absolute;
+    top: 42%;
+    left: 45%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnU {
+    width: 150px;
+    height: 50px;
+    background: rgb(113, 179, 128);
+    border-radius: 12px;
+    position: absolute;
+    top: 42%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnV {
+    width: 150px;
+    height: 150px;
+    background: rgb(255, 173, 195);
+    border-radius: 12px;
+    position: absolute;
+    top: 89%;
+    left: 69%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnW {
+    width: 50px;
+    height: 80px;
+    background: rgb(255, 255, 151);
+    border-radius: 12px;
+    position: absolute;
+    top: 46%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnX {
+    width: 150px;
+    height: 60px;
+    background: rgb(255, 121, 121);
+    border-radius: 12px;
+    position: absolute;
+    top: 61%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnY {
+    width: 150px;
+    height: 80px;
+    background: rgb(140, 112, 248);
+    border-radius: 12px;
+    position: absolute;
+    top: 17%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnZ {
+    width: 150px;
+    height: 140px;
+    background: rgb(114, 183, 251);
+    border-radius: 12px;
+    position: absolute;
+    top: 77%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnAB {
+    width: 50px;
+    height: 50px;
+    background: rgb(251, 128, 114);
+    border-radius: 12px;
+    position: absolute;
+    top: 17%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+  .btnAC {
+    width: 30px;
+    height: 30px;
+    background: rgb(114, 251, 164);
+    border-radius: 12px;
+    position: absolute;
+    top: 24%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+  .btnAD {
+    width: 40px;
+    height: 40px;
+    background: rgb(182, 114, 251);
+    border-radius: 12px;
+    position: absolute;
+    top: 20%;
+    left: 24%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAE {
+    width: 50px;
+    height: 60px;
+    background: rgb(114, 217, 251);
+    border-radius: 12px;
+    position: absolute;
+    top: 27%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAF {
+    width: 70px;
+    height: 50px;
+    background: rgb(224, 114, 251);
+    border-radius: 12px;
+    position: absolute;
+    top: 27%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAG {
+    width: 50px;
+    height: 80px;
+    background: rgb(114, 251, 212);
+    border-radius: 12px;
+    position: absolute;
+    top: 47%;
+    left: 77%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAH {
+    width: 50px;
+    height: 50px;
+    background: rgb(141, 251, 114);
+    border-radius: 12px;
+    position: absolute;
+    top: 14%;
+    left: 28%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAI {
+    width: 50px;
+    height: 50px;
+    background: rgb(251, 114, 219);
+    border-radius: 12px;
+    position: absolute;
+    top: 39%;
+    left: 83%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAJ {
+    width: 170px;
+    height: 35px;
+    background: rgb(218, 255, 229);
+    border-radius: 12px;
+    position: absolute;
+    top: 74%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAK {
+    width: 150px;
+    height: 70px;
+    background: rgb(25, 32, 70);
+    border-radius: 12px;
+    position: absolute;
+    top: 93%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAL {
+    width: 50px;
+    height: 50px;
+    background: rgb(0, 106, 135);
+    border-radius: 12px;
+    position: absolute;
+    top: 67%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAM {
+    width:130px;
+    height: 40px;
+    background: rgb(100, 55, 98);
+    border-radius: 12px;
+    position: absolute;
+    top: 7%;
+    left: 29%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAN {
+    width: 150px;
+    height: 90px;
+    background: rgb(109, 104, 8);
+    border-radius: 12px;
+    position: absolute;
+    top: 8%;
+    left: 8%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAO {
+    width: 150px;
+    height: 40px;
+    background: rgb(142, 116, 113);
+    border-radius: 12px;
+    position: absolute;
+    top: 57%;
+    left: 43%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAP {
+    width: 50px;
+    height: 50px;
+    background: rgb(149, 105, 126);
+    border-radius: 12px;
+    position: absolute;
+    top: 44%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+
+  .btnAQ {
+    width: 150px;
+    height: 70px;
+    background: rgb(124, 105, 149);
+    border-radius: 12px;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+  .btnAR {
+    width: 200px;
+    height: 70px;
+    background: rgb(105, 128, 149);
+    border-radius: 12px;
+    position: absolute;
+    top: 94%;
+    left: 53%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+  .btnAS {
+    width: 150px;
+    height: 70px;
+    background: rgb(149, 105, 105);
+    border-radius: 12px;
+    position: absolute;
+    top: 84%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAT {
+    width: 50px;
+    height: 70px;
+    background: rgb(124, 105, 149);
+    border-radius: 12px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAU {
+    width: 80px;
+    height: 60px;
+    background: rgb(216, 158, 0);
+    border-radius: 12px;
+    position: absolute;
+    top: 94%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAV {
+    width: 50px;
+    height: 30px;
+    background: rgb(105, 149, 126);
+    border-radius: 12px;
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+    cursor: grab;
+    overflow: hidden;
+  }
+  
+
+  .btnAW {
+    width: 70px;
+    height: 70px;
+    background: rgb(152, 36, 102);
+    border-radius: 12px;
+    position: absolute;
+    top: 94%;
+    left: 32%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAX {
+    width: 50px;
+    height: 70px;
+    background: rgb(215, 66, 73);
+    border-radius: 12px;
+    position: absolute;
+    top: 54%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAY {
+    width: 35px;
+    height: 120px;
+    background: rgb(72, 87, 225);
+    border-radius: 12px;
+    position: absolute;
+    top: 43%;
+    left: 64%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
+  }
+  
+
+  .btnAZ {
+    width: 90px;
+    height: 40px;
+    background: rgb(255, 127, 77);
+    border-radius: 12px;
+    position: absolute;
+    top: 60%;
+    left: 59%;
+    transform: translate(-50%,-50%);
+    cursor: default;
+    overflow: hidden;
   }
   
